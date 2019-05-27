@@ -1,1 +1,1 @@
-# WordPress zaura.lt theme
+# Custom WordPress theme for zaura.lt
