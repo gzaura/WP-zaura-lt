@@ -1,7 +1,7 @@
-# Custom WordPress theme for zaura.lt
+# Custom WordPress theme for http://zaura.lt
 
 My first serious attempt to make WP plugin from scratch.
-#TODO Needs SCSS/CSS optimization.
+Needs SCSS/CSS optimization.
 
 ## Requires Js libraries:
 
