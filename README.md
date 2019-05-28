@@ -16,3 +16,4 @@
 + Regenerate Thumbnails
 + Contact Form 7
 + Widget CSS Classes
++ Intuitive Custom Post Order
