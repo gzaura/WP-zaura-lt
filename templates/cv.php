@@ -4,7 +4,7 @@
 
 get_header(); ?>
 
-<body class="brown">
+<div style="background-color:<?php the_field('background'); ?>">
 
 	<?php get_template_part( 'partials/primary', 'navigation' ); ?>
 
@@ -15,6 +15,7 @@ get_header(); ?>
 			<img class="cv-foto" src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt']; ?>" />
 		<?php endif; ?>
 		<p><?php the_field('portrait_text'); ?></p>
-
-	<?php get_template_part( 'partials/list' ); ?>
-	<?php get_footer(); ?>
+		<?php get_template_part( 'partials/list' ); ?>
+		<?php get_footer(); ?>
+	</div>
+</div>

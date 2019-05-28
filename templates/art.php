@@ -3,8 +3,7 @@
 /* Template Name: Art */
 
 get_header(); ?>
-
-	<body class="white">
+<div style="background-color:<?php the_field('background'); ?>">
 		<?php get_template_part( 'partials/primary', 'navigation' ); ?>
 		<h2 class="art-heading" id="paintings">Paintings</h2>
 
@@ -52,5 +51,5 @@ get_header(); ?>
 			<a class= "fixed-paintings" href="#paintings">Paintings</a>
 			<a class= "fixed-drawings" href="#drawings">Drawings</a>
 		</div>
-
+</div>
 <?php get_footer(); ?>

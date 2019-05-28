@@ -4,7 +4,7 @@
 
 get_header(); ?>
 
-<body class="brown">
+<div style="background-color:<?php the_field('background'); ?>">
 	<?php get_template_part( 'partials/primary', 'navigation' ); ?>
 	<div class="center-contact">
 		<p id="messenger" class="something"><?php the_field('message'); ?></p>
@@ -17,14 +17,14 @@ get_header(); ?>
 				<?php while ( have_rows('social_repeater') ) : the_row();?>
 					<?php the_sub_field('event_name'); ?>
 						<a class="flex-enable" href="<?php the_sub_field('social_link'); ?>" target="_blank">
-			  		  	<?php the_sub_field('icon'); ?>
-				  		  	<div class="transparent">
-				  		  		<?php the_sub_field('icon'); ?>
-				  		  	</div>
-			  		  	</a>
+							<?php the_sub_field('icon'); ?>
+							<div class="transparent">
+								<?php the_sub_field('icon'); ?>
+							</div>
+						</a>
 				<?php endwhile; ?>
 			<?php endif; ?>
 		</div>
 	</div>
-
+</div>
 <?php get_footer(); ?>

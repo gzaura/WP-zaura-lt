@@ -4,7 +4,7 @@
 
 get_header(); ?>
 
-<body class="brown">
+<div style="background-color:<?php the_field('background'); ?>">
 	<div class="container flex-enable">
 		<header class="header-box flex-enable">
 			<div >
@@ -23,5 +23,5 @@ get_header(); ?>
 					];
 					wp_nav_menu($args);
 				?>
-
+</div>
 <?php get_footer(); ?>

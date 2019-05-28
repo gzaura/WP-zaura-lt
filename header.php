@@ -23,12 +23,21 @@
                           `|   \,/'''`\,     /'   >  \     /'
                            | ,/'  `. .  `\ ,/'   / \  \   /'
                    ___,----Y-'      Y     7'   .'.' `\ \ /'
-               _-/''        `\.     .   ,/'    /.'    `\\ 
+               _-/''        `\.     .   ,/'    /.'    `\\
            _,-''          ---  \    `  /'    ./.'   __-' "
         _/''     .--            `\    /'     /,'_--'
      ,/''  ..                     `"\_     ./ /='
- .,/'                             .--"\    / / 
+ .,/'                             .--"\    / /
 <------------------,_____      ,/~'  \ | ./ .'
                         `"""""""      `|_/\ /
                                         '  '
  -->
+	<body style="background-color:<?php the_field('background'); ?>">
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-38170672-2"></script>
+		<script>
+			window.dataLayer = window.dataLayer || [];
+			function gtag(){dataLayer.push(arguments);}
+			gtag('js', new Date());
+			gtag('config', 'UA-38170672-2');
+		</script>
