@@ -11,12 +11,12 @@ Needs SCSS/CSS optimization.
 + fancybox http://fancyapps.com/fancybox/3/
 + masonry https://masonry.desandro.com/
 
-## Requires WordPress Plugins:
+## Required and recommended WordPress plugins:
 
-+ Advanced Custom Fields PRO
-+ Advanced Custom Fields: Font Awesome
-+ Advanced Custom Fields: Post Type Selector
-+ Regenerate Thumbnails
-+ Contact Form 7
-+ Widget CSS Classes
-+ Intuitive Custom Post Order
++ (required) Advanced Custom Fields PRO https://www.advancedcustomfields.com/
++ (required) Advanced Custom Fields: Font Awesome
++ (required) Advanced Custom Fields: Post Type Selector
++ (required) Contact Form 7 https://wordpress.org/plugins/contact-form-7/
++ Regenerate Thumbnails https://wordpress.org/plugins/regenerate-thumbnails/
++ Widget CSS Classes https://wordpress.org/plugins/widget-css-classes/
++ Intuitive Custom Post Order https://wordpress.org/plugins/intuitive-custom-post-order/
