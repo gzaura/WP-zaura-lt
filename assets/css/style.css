@@ -429,13 +429,8 @@ h6 {
 
 /* /Reset */
 /*==========================================================================================================*/
-.brown {
-  background-color: #212121;
-  color: white; }
-
-.white {
-  background-color: #D3D3D3;
-  color: #212121; }
+.something {
+  padding-top: 100px; }
 
 .flex-enable {
   display: -webkit-box;
@@ -475,7 +470,6 @@ a {
   text-decoration: none; }
 
 h2 {
-  color: white;
   text-align: center;
   padding-top: 30px; }
 
@@ -502,20 +496,6 @@ body.fade-out {
   -o-transition: none;
   transition: none; }
 
-.white a:hover {
-  -webkit-transition: 1s;
-  -o-transition: 1s;
-  transition: 1s;
-  letter-spacing: 0.3em;
-  text-transform: uppercase; }
-
-.white li a:hover {
-  -webkit-transition: 1s;
-  -o-transition: 1s;
-  transition: 1s;
-  letter-spacing: 0.3em;
-  text-transform: uppercase; }
-
 .imglist {
   -ms-flex-wrap: wrap;
   flex-wrap: wrap; }
@@ -529,7 +509,9 @@ body.fade-out {
   justify-content: center; }
 
 .header-box p {
-  padding: 0 30px 30px 30px; }
+  color: white;
+  padding: 0 30px 30px 30px;
+  line-height: 1.6; }
 
 .header-box .nav {
   display: -webkit-box;
@@ -553,9 +535,11 @@ body.fade-out {
     letter-spacing: 0;
     font-weight: 400; }
   .center p {
+    color: white;
     text-align: center;
     padding-top: 30px; }
   .center h2 {
+    color: white;
     margin-bottom: 30px; }
 
 .center div:last-child {
@@ -566,7 +550,7 @@ body.fade-out {
   max-width: 750px; }
   .center-ul li {
     font-size: 0.8rem;
-    line-height: 1.5; }
+    line-height: 2; }
   .center-ul a {
     color: #D3D3D3; }
   .center-ul li:hover,
@@ -694,6 +678,9 @@ body.fade-out {
   .art-nav a {
     color: white; }
 
+#messenger {
+  color: white; }
+
 .container {
   -webkit-box-pack: center;
   -ms-flex-pack: center;
@@ -709,6 +696,8 @@ body.fade-out {
     font-size: 1.8rem; }
 
 @media all and (max-width: 900px) {
+  .something {
+    padding-top: 100px; }
   .grid-item {
     width: 50%; } }
 
@@ -720,9 +709,13 @@ body.fade-out {
     padding-left: 15px;
     padding-right: 15px; }
     .center-ul li {
-      margin: 15px; } }
+      margin: 15px; }
+  .something {
+    padding-top: 100px; } }
 
 @media all and (max-width: 600px) {
+  .something {
+    padding-top: 200px; }
   .nav {
     -ms-flex-wrap: wrap;
     flex-wrap: wrap; }
@@ -785,4 +778,4 @@ body.fade-out {
 
 @media all and (max-width: 420px) {
   .something {
-    padding-top: 250px; } }
+    padding-top: 230px; } }

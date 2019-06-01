@@ -1,6 +1,9 @@
 //////////////////// media /////////////////////////////////////////////////////
 
 @media all and (max-width: 900px){
+	.something {
+		padding-top: 100px;
+	}
 	.grid-item {
 		width: 50%;
 		}
@@ -18,9 +21,15 @@
 			margin: 15px;
 		}
 	}
+	.something {
+		padding-top: 100px;
+	}
 }
 
 @media all and (max-width: 600px){
+	.something {
+		padding-top: 200px;
+	}
 	.nav{
 		flex-wrap: wrap;
 	}
@@ -35,7 +44,6 @@
 		left: 25px;
 		z-index: 2;
 	}
-
 	.toggle a {
   text-decoration: none;
   font-size: 2rem;
@@ -87,6 +95,6 @@
 
 @media all and (max-width: 420px){
 	.something {
-		padding-top: 250px;
+		padding-top: 230px;
 	}
 }

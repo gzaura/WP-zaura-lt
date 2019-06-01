@@ -1,15 +1,15 @@
-.white {
-	a:hover {
-		transition: 1s;
-		letter-spacing: 0.3em;
-		text-transform: uppercase;
-	}
-	li a:hover {
-		transition: 1s;
-		letter-spacing: 0.3em;
-		text-transform: uppercase;
-	}
-}
+// .white {
+// 	a:hover {
+// 		transition: 1s;
+// 		letter-spacing: 0.3em;
+// 		text-transform: uppercase;
+// 	}
+// 	li a:hover {
+// 		transition: 1s;
+// 		letter-spacing: 0.3em;
+// 		text-transform: uppercase;
+// 	}
+// }
 
 .imglist {
 	flex-wrap: wrap;
@@ -26,7 +26,9 @@
 		justify-content: center;
 	}
 	p{
+		color: white;
 		padding: 0 30px 30px 30px;
+		line-height: 1.6;
 	}
 	.nav {
 		display: flex;
@@ -52,10 +54,12 @@
 		font-weight: 400;
 	}
 	p {
+		color: white;
 		text-align: center;
 		padding-top: 30px;
 	}
 	h2 {
+		color: white;
 		margin-bottom: 30px;
 	}
 }
@@ -69,7 +73,7 @@
 	max-width: 750px;
 	li {
 		font-size: 0.8rem;
-		line-height: 1.5;
+		line-height: 2;
 	}
 	a {
 		color: #D3D3D3;
@@ -191,6 +195,10 @@
 }
 
 ////////////////////// intro container /////////////////////////////////////////
+
+#messenger {
+	color: white;
+}
 
 .container {
 	justify-content: center;
