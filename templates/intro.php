@@ -14,7 +14,7 @@ get_header(); ?>
 						<h2>Labas</h2>
 					</div>
 				</div>
-				<p><?php the_field('intro_text'); ?></p>
+				<?php the_field('intro_text'); ?>
 				<?php
 					$args =[
 						'menu_class' => 'nav',

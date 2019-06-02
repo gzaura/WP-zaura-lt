@@ -1,7 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto+Mono:400,700&subset=latin-ext");
 html {
-  font-family: 'Roboto Mono', monospace;
-  letter-spacing: 0.1em; }
+  font-family: 'Roboto Mono', monospace; }
 
 /*--------------------------------------------*/
 /*reset taisykles*/
@@ -510,8 +509,9 @@ body.fade-out {
 
 .header-box p {
   color: white;
-  padding: 0 30px 30px 30px;
-  line-height: 1.6; }
+  padding: 30px 30px 30px 30px;
+  line-height: 1.5;
+  text-align: justify; }
 
 .header-box .nav {
   display: -webkit-box;
