@@ -1,9 +1,9 @@
 //////////////////// media /////////////////////////////////////////////////////
 
 @media all and (max-width: 900px){
-	.something {
-		padding-top: 100px;
-	}
+	// .something {
+	// 	padding-top: 100px;
+	// }
 	.grid-item {
 		width: 50%;
 		}
@@ -21,9 +21,9 @@
 			margin: 15px;
 		}
 	}
-	.something {
-		padding-top: 100px;
-	}
+	// .something {
+	// 	padding-top: 100px;
+	// }
 }
 
 @media all and (max-width: 600px){
@@ -91,10 +91,13 @@
 	.cv-foto {
 		padding-top: 40px;
 	}
+	// #messenger {
+	// 	margin-top: 0px;
+	// }
 }
 
-@media all and (max-width: 420px){
-	.something {
-		padding-top: 230px;
-	}
-}
+// @media all and (max-width: 420px){
+// 	.something {
+// 		padding-top: 230px;
+// 	}
+// }
