@@ -11,7 +11,7 @@ get_header(); ?>
 				<div class="flex-enable container">
 					<h2 id="messenger"><?php the_field('greeting'); ?></h2>
 					<div class="transparent">
-						<h2>Labas</h2>
+						<h2><?php the_field('greeting'); ?></h2>
 					</div>
 				</div>
 				<?php the_field('intro_text'); ?>

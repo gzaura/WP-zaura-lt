@@ -16,7 +16,7 @@ get_header(); ?>
 			<?php
 			$images = get_field('paintings');
 			if( $images ): ?>
-			        <?php foreach( $images as $image ): ?>
+			<?php foreach( $images as $image ): ?>
 			                <a href="<?php echo $image['url']; ?>" class="grid-item" data-fancybox="images" data-caption="<?php echo $image['caption']; ?>">
 			                     <img src="<?php echo $image['sizes']['thumbnail']; ?>" alt="<?php echo $image['alt']; ?>" /></a>
 			        <?php endforeach; ?>

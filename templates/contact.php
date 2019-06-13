@@ -7,7 +7,15 @@ get_header(); ?>
 <div style="background-color:<?php the_field('background'); ?>">
 	<?php get_template_part( 'partials/primary', 'navigation' ); ?>
 	<div class="center-contact">
-		<p id="messenger" class="something"><?php the_field('message'); ?></p>
+		<!-- test -->
+		
+			<p id="messenger" class="something"><?php the_field('message'); ?></p>
+			<div class="transparent">
+				<p class="something"><?php the_field('message'); ?></p>
+			</div>
+
+		<!-- test -->
+		<!-- <p id="messenger" class="something"><?php the_field('message'); ?></p> -->
 		<p class="email"><?php the_field('email'); ?></p>
 
 		<?php echo do_shortcode(get_field('contact_form_shortcode')); ?>
