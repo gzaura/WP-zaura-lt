@@ -111,7 +111,7 @@ $(document).ready(function(){
 
 
 
-/////////////////////////////// scrolas ///////////////////////////
+/////////////////////////////// scrolas ////////////////////////////////////////
 
 $(document).ready(function(){
   // Add smooth scrolling to all links
@@ -137,3 +137,15 @@ $(document).ready(function(){
     } // End if
   });
 });
+
+//// burger color change in cv page ///////////////////////////////////////////
+
+$(document).ready(function(){
+    $(window).scroll(function() { // check if scroll event happened
+      if ($(document).scrollTop() > 250) { // check if user scrolled more than 50 from top of the browser window
+        $("#cv-burger i").css("color", "white"); // if yes, then change the color of class "navbar-fixed-top" to white (#f8f8f8)
+      } else {
+        $("#cv-burger i").css("color", "#212121"); // if not, change it back to transparent
+      }
+    });
+  });
