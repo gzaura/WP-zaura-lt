@@ -109,8 +109,6 @@ $(document).ready(function(){
     });
   }
 
-
-
 /////////////////////////////// scrolas ////////////////////////////////////////
 
 $(document).ready(function(){
