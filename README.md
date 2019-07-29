@@ -1,4 +1,4 @@
-# Custom WordPress theme for http://zaura.lt
+# Custom WordPress theme for https://zaura.lt
 
 My first serious attempt to make WP theme from scratch.
 Needs SCSS/CSS optimization.
